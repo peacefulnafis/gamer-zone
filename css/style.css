@@ -1,4 +1,179 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
 }
+
+.container {
+  padding: 0px 10rem;
+}
+
+/* d-f */
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* t-c */
+.text-align-center {
+  text-align: center;
+}
+
+/* t-l */
+.text-align-left {
+  text-align: left;
+}
+
+/* sec-padding */
+.section-padding {
+  padding: 3.5rem 0rem;
+}
+
+/* t-r */
+.text-align-right {
+  text-align: right;
+}
+
+/* d-g */
+.display-grid {
+  display: grid;
+}
+
+span.color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.paragraph {
+  color: #534c64;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 48px;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+/* primary-button */
+.first-button {
+  color: #fff;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: none;
+}
+
+/* secondary-button */
+.second-button {
+  color: #fff;
+  background: #4ec5f7;
+  border: none;
+}
+
+.third-button {
+  color: #f948b2;
+}
+
+/* Global css end */
+
+/* header css start  */
+
+header {
+  padding: 2rem 0;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+header div.logo {
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.logo .logo-color {
+  color: #f948b2;
+}
+
+ul.menu {
+  list-style: none;
+  gap: 1.5rem;
+}
+
+ul > .menu-item {
+  color: #3c354f;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+div.follow {
+  height: 2.75rem;
+  padding: 0 1rem;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  gap: 1rem;
+  cursor: auto;
+}
+
+div.follow > .menu-item {
+  cursor: pointer;
+}
+
+/* header css end  */
+
+/* banner css start  */
+
+.banner-section {
+    background-image: url("../images/banner-bg.png");
+    background-position: center left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .banner-section h2 {
+    color: #0b0223;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .banner-section h1 {
+    font-weight: 800;
+    font-size: 5rem;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem 0 2rem;
+  }
+  
+  .info-container > .banner-info {
+    justify-content: flex-start;
+    gap: 0.5em;
+  }
+  
+  .banner-info p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #534c64;
+  }
+
+  .banner-right img {
+    width: 80%;
+    margin-bottom: -5px;
+  }
+  
+  /* banner css end  */
