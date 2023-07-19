@@ -1,0 +1,270 @@
+@media screen and (max-width: 1025px) {
+    .container {
+      padding: 0rem 7rem;
+    }
+  
+    .banner-info p {
+      font-size: 0.8rem;
+    }
+  
+    .intro-left {
+      width: 50%;
+    }
+  
+    .intro-right {
+      width: 50%;
+    }
+  
+    .image-left h3.title {
+      font-size: 1.8rem;
+    }
+  
+    section.career {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    .career-left {
+      width: 80%;
+      padding: 3rem 0 0;
+    }
+  
+    .career-right {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 769px) {
+    .container {
+      padding: 0rem 4rem;
+    }
+  
+    .paragraph {
+      text-align: center;
+    }
+  
+    header > div.display-flex {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .banner-section > div {
+      flex-direction: column-reverse;
+      gap: 4rem;
+    }
+  
+    .banner-right {
+      text-align: center;
+    }
+  
+    .banner-left {
+      text-align: left;
+    }
+  
+    .intro-section > div {
+      flex-direction: column;
+    }
+  
+    .intro-left {
+      width: 100%;
+    }
+  
+    .intro-right {
+      align-items: center;
+      width: 100%;
+    }
+  
+    .purpose {
+      text-align: center;
+    }
+  
+    .cascading-image-section > div {
+      flex-direction: column;
+      gap: 3rem;
+    }
+  
+    div.image-left {
+      text-align: center;
+      width: 70%;
+    }
+  
+    .image-right img {
+      width: 100%;
+    }
+  
+    .badge-image img {
+      width: 50%;
+    }
+  
+    .category-container {
+      gap: 1rem;
+    }
+  
+    .category-title {
+      font-size: 0.7rem;
+    }
+  
+    .category-box {
+      gap: 0.5rem;
+    }
+  
+    .category-box img {
+      width: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 577px) {
+    .container {
+      padding: 0rem 2rem;
+    }
+  
+    .game-container {
+      flex-direction: column;
+    }
+  
+    .game-card {
+      width: 100%;
+    }
+  
+    div.image-left {
+      width: 70%;
+    }
+  
+    .copy-right-menu {
+      list-style: none;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 0;
+      display: grid;
+      grid-template-columns: repeat(2, 10rem);
+    }
+  
+    .footer-menu {
+      list-style: none;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 0;
+      display: grid;
+      grid-template-columns: repeat(3, 6rem);
+    }
+  
+    .overlay {
+      border-radius: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 481px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .paragraph {
+      font-size: 0.8rem;
+      line-height: normal;
+    }
+  
+    .intro-right h4 {
+      font-size: 1rem;
+      color: #534c64;
+    }
+  
+    .our-purpose {
+      font-size: 0.8rem;
+    }
+  
+    .category-container {
+      gap: 0.5rem;
+    }
+  
+    .category-title {
+      font-size: 0.6rem;
+    }
+  
+    .category-box {
+      gap: 0.25rem;
+    }
+  
+    .category-box img {
+      width: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    nav ul.menu {
+      flex-direction: column;
+    }
+  
+    header {
+      box-shadow: none;
+    }
+  
+    .career-left p {
+      font-size: 0.6rem;
+    }
+  
+    .category-container {
+      gap: 0.25rem;
+    }
+  
+    .category-title {
+      font-size: 0.5rem;
+    }
+  
+    .category-box {
+      gap: 0.25rem;
+    }
+  
+    .category-box img {
+      width: 1rem;
+    }
+  
+    .icon-container {
+      padding: 0 5rem;
+    }
+  
+    .overlay {
+      border-radius: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 325px) {
+    .category-container {
+      gap: 0;
+    }
+  }
+  
+  @media screen and (max-width: 321px) {
+    .logo-text {
+      font-size: 1.8rem;
+    }
+  
+    .banner-section h1 {
+      font-size: 4rem;
+    }
+  
+    button {
+      font-size: 0.7rem;
+    }
+  
+    .icon-container {
+      padding: 0 3rem;
+    }
+  
+    .copy-right-menu {
+      list-style: none;
+      justify-content: center;
+      gap: 1rem;
+      padding: 3rem 0;
+      display: grid;
+      grid-template-columns: repeat(2, 9rem);
+    }
+  
+    .footer-menu {
+      list-style: none;
+      justify-content: center;
+      gap: 1rem;
+      padding: 3rem 0;
+      display: grid;
+      grid-template-columns: repeat(3, 5.5rem);
+    }
+  }
