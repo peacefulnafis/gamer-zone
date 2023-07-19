@@ -1,367 +1,367 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Work Sans", sans-serif;
-  }
-  
-  .container {
-    padding: 0px 10rem;
-  }
-  
-  .display-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .text-allign-center {
-    text-align: center;
-  }
-  
-  .text-allign-left {
-    text-align: left;
-  }
-  
-  .section-padding {
-    padding: 3.5rem 0rem;
-  }
-  
-  .text-allign-right {
-    text-align: right;
-  }
-  
-  .display-grid {
-    display: grid;
-  }
-  
-  span.color {
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .title {
-    font-weight: 700;
-    font-size: 2.5rem;
-  }
-  
-  .paragraph {
-    color: #534c64;
-    font-weight: 500;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-  }
-  
-  button {
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 48px;
-    padding: 1rem 2rem;
-    border: none;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
 
-  .primary-button {
-    color: #fff;
-    background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-    border: none;
-  }
-  
-  .secondary-button {
-    color: #fff;
-    background: #4ec5f7;
-    border: none;
-  }
-  
-  .third-button {
-    color: #f948b2;
-  }
-  
-  /* global css end */
-  
-  /* header css start  */
+.container {
+  padding: 0px 10rem;
+}
 
-  header {
-    padding: 2rem 0;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  }
-  
-  header div.logo {
-    gap: 1rem;
-    cursor: pointer;
-  }
-  
-  .logo .logo-color {
-    color: #f948b2;
-  }
-  
-  ul.menu {
-    list-style: none;
-    gap: 1.5rem;
-  }
-  
-  ul > .menu-item {
-    color: #3c354f;
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-  }
-  
-  div.follow {
-    height: 2.75rem;
-    padding: 0 1rem;
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.1);
-    gap: 1rem;
-    cursor: auto;
-  }
-  
-  div.follow > .menu-item {
-    cursor: pointer;
-  }
-  
-  /* header css end  */
-  
-  /* banner css start  */
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .banner-section {
-    background-image: url("../images/banner-bg.png");
-    background-position: center left;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  .banner-section h2 {
-    color: #0b0223;
-    font-size: 1.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  
-  .banner-section h1 {
-    font-weight: 800;
-    font-size: 5rem;
-  }
-  
-  .info-container {
-    display: flex;
-    flex-direction: column;
-    gap: 0.7rem;
-    padding: 1rem 0 2rem;
-  }
-  
-  .info-container > .banner-info {
-    justify-content: flex-start;
-    gap: 0.5em;
-  }
-  
-  .banner-info p {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #534c64;
-  }
-  
-  .banner-right img {
-    width: 80%;
-    margin-bottom: -5px;
-  }
-  
-  /* banner css end  */
-  
-  /* games section css start  */
+.text-allign-center {
+  text-align: center;
+}
 
-  .games p.paragraph {
-    padding: 1rem 0 3rem;
-  }
-  
-  .game-container {
-    gap: 1rem;
-  }
-  
-  .game-card {
-    width: 24%;
-  }
-  
-  .image-card {
-    position: relative;
-  }
-  
-  .overlay {
-    height: 99%;
-    width: 100%;
-    background-color: #00000087;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 15px;
-    display: none;
-  }
-  
-  .image-card:hover .overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transform: 0.5s;
-    transition-timing-function: ease-in-out;
-  }
-  
-  .overlay > p.paragraph {
-    color: #ff42a5;
-    padding: 0;
-  }
-  
-  .overlay > i {
-    font-size: 2.5rem;
-    color: #fff;
-  }
-  
-  .game-card img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  /* games section css end */
-  
-  /* cascading image css start  */
+.text-allign-left {
+  text-align: left;
+}
 
-  div.image-left {
-    width: 28%;
-  }
-  
-  div.image-right {
-    position: relative;
-    width: 50%;
-    padding: 0 0 4rem 7rem;
-  }
-  
-  .image-right img {
-    width: 90%;
-  }
-  
-  .badge-image img {
-    width: 75%;
-  }
-  
-  div.badge-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-  
-  /* cascading image css end  */
-  
-  /* game-category css start  */
+.section-padding {
+  padding: 3.5rem 0rem;
+}
 
-  .game-category {
-    background: linear-gradient(
-      90deg,
-      rgba(255, 66, 165, 0.03) 0%,
-      rgba(255, 66, 165, 0.03) 100%
-    );
-  }
-  
-  .category-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .category-box {
-    padding: 0.5rem;
-    background: #fff;
-    border-radius: 4rem;
-    gap: 1rem;
-    border: 1px solid #fff;
-    cursor: pointer;
-  }
-  
-  .category-box img {
-    width: 3rem;
-  }
-  
-  .category-box:hover {
-    border: 1px solid #ff42a5;
-    transition: 0.5s;
-  }
-  
-  .category-box:hover .category-title {
-    color: #ff42a5;
-    transition: 0.5s;
-  }
-  
-  .category-title {
-    color: #0b0223;
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  
-  /* game-category css end  */
-  
-  /* footer css start */
+.text-allign-right {
+  text-align: right;
+}
 
-  footer {
-    background: #0b0223;
-  }
-  
-  footer .logo-text {
-    color: #fff;
-  }
-  
-  footer .logo {
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  .footer-menu {
-    list-style: none;
-    justify-content: center;
-    gap: 2rem;
-    padding: 3rem 0;
-    display: grid;
-    grid-template-columns: repeat(6, 6rem);
-  }
-  
-  .footer-menu > .menu-item {
-    color: #fff;
-    font-weight: 600;
-  }
-  
-  footer i {
-    font-size: 1.8rem;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .icon-container {
-    gap: 2rem;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .copy-right-menu {
-    list-style: none;
-    justify-content: center;
-    gap: 0rem;
-    padding: 3rem 0;
-    display: grid;
-    grid-template-columns: repeat(4, 10rem);
-  }
-  
-  .copy-right-menu .copy-menu-item {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 0.8rem;
-    font-weight: 500;
-  }
-  
-  .copyright {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 0.8rem;
-    font-weight: 500;
-  }
+.display-grid {
+  display: grid;
+}
 
-  /* footer css end */
+span.color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.paragraph {
+  color: #534c64;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 48px;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+.primary-button {
+  color: #fff;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: none;
+}
+
+.secondary-button {
+  color: #fff;
+  background: #4ec5f7;
+  border: none;
+}
+
+.third-button {
+  color: #f948b2;
+}
+
+/* global css end */
+
+/* header css start  */
+
+header {
+  padding: 2rem 0;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+header div.logo {
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.logo .logo-color {
+  color: #f948b2;
+}
+
+ul.menu {
+  list-style: none;
+  gap: 1.5rem;
+}
+
+ul > .menu-item {
+  color: #3c354f;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+div.follow {
+  height: 2.75rem;
+  padding: 0 1rem;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  gap: 1rem;
+  cursor: auto;
+}
+
+div.follow > .menu-item {
+  cursor: pointer;
+}
+
+/* header css end  */
+
+/* banner css start  */
+
+.banner-section {
+  background-image: url("../images/banner-bg.png");
+  background-position: center left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banner-section h2 {
+  color: #0b0223;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner-section h1 {
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1rem 0 2rem;
+}
+
+.info-container > .banner-info {
+  justify-content: flex-start;
+  gap: 0.5em;
+}
+
+.banner-info p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #534c64;
+}
+
+.banner-right img {
+  width: 80%;
+  margin-bottom: -5px;
+}
+
+/* banner css end  */
+
+/* games section css start  */
+
+.games p.paragraph {
+  padding: 1rem 0 3rem;
+}
+
+.game-container {
+  gap: 1rem;
+}
+
+.game-card {
+  width: 24%;
+}
+
+.image-card {
+  position: relative;
+}
+
+.overlay {
+  height: 99%;
+  width: 100%;
+  background-color: #00000087;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  display: none;
+}
+
+.image-card:hover .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.overlay > p.paragraph {
+  color: #ff42a5;
+  padding: 0;
+}
+
+.overlay > i {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.game-card img {
+  width: 100%;
+  height: 100%;
+}
+
+/* games section css end */
+
+/* cascading image css start  */
+
+div.image-left {
+  width: 28%;
+}
+
+div.image-right {
+  position: relative;
+  width: 50%;
+  padding: 0 0 4rem 7rem;
+}
+
+.image-right img {
+  width: 90%;
+}
+
+.badge-image img {
+  width: 75%;
+}
+
+div.badge-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* cascading image css end  */
+
+/* game-category css start  */
+
+.game-category {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-box {
+  padding: 0.5rem;
+  background: #fff;
+  border-radius: 4rem;
+  gap: 1rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.category-box img {
+  width: 3rem;
+}
+
+.category-box:hover {
+  border: 1px solid #ff42a5;
+  transition: 0.5s;
+}
+
+.category-box:hover .category-title {
+  color: #ff42a5;
+  transition: 0.5s;
+}
+
+.category-title {
+  color: #0b0223;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* game-category css end  */
+
+/* footer css start */
+
+footer {
+  background: #0b0223;
+}
+
+footer .logo-text {
+  color: #fff;
+}
+
+footer .logo {
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-menu {
+  list-style: none;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(6, 6rem);
+}
+
+.footer-menu > .menu-item {
+  color: #fff;
+  font-weight: 600;
+}
+
+footer i {
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icon-container {
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.copy-right-menu {
+  list-style: none;
+  justify-content: center;
+  gap: 0rem;
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 10rem);
+}
+
+.copy-right-menu .copy-menu-item {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* footer css end */
